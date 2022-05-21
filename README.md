@@ -10,6 +10,10 @@ A Python script for easily creating Todoist projects from templates.
 - Supports nested tasks up to 2 levels
 - Place `$project` in your task to have it replaced with the project name
 
+## Prerequisites
+
+- Requires Python verion 3.8 or above
+
 ## Setup & Usage
 
 1. Clone the repository on your local machine
