@@ -8,21 +8,28 @@ A Python script for easily creating Todoist projects from templates.
 - Supports labels
 - Supports due dates
 - Supports nested tasks up to 2 levels
+- Place `$project` in your task to have it replaced with the project name
 
-## Setup and Usage
+## Setup & Usage
 
 1. Clone the repository on your local machine
 
 2. Install required libraries
 
-> pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
+   ```
 
 3. Create **todoist_api_key.txt** and paste your API token
 
 4. Run the script
 
-> python main.py
+   ```
+   python main.py
+   ```
 
-## Issues and Enhancements
+**Tip:** I personally use a combination of the [Wox Launcher](http://www.wox.one/) and a windows batch file for easy and smooth usage.
+
+## Issues & Enhancements
 
 - Doesn't support nested tasks of more than 2 levels
